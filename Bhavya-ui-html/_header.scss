@@ -1,0 +1,123 @@
+.header
+{
+	height : 150px;
+	
+	display: flex;
+	
+    margin: auto;
+
+    
+}
+.holder{
+	height: 100px;
+	 
+	width: 100%;
+
+	
+}
+.logo{
+	width: 100px;
+}
+.mp{
+	padding: 40px;
+	width: 90px;
+	height: 20px;
+	color: gray;
+    font-size: large;
+}
+
+
+.header-link-holder ul{
+
+margin-left: auto;
+margin-right: 3px;
+
+
+
+}
+
+
+.header-link-holder ul li {
+	margin-top: 30px;
+	
+}
+
+.header-link-holder a{
+	text-decoration: none;
+	color: gray;
+
+}
+
+.header-link-holder a:hover{
+	color: gray;
+}
+
+.header-link-holder ul {
+	display: flex;
+
+
+
+}
+
+.header-link-holder ul li{
+	margin-left: 20px;
+	font-size: 20px;
+	color: gray;
+}
+
+ header{
+	border-bottom: 1px solid #ccc;
+	display: flex;
+
+
+} 
+
+
+div.justify 
+{
+	margin-left: 562px;
+	justify-content: flex-end;
+	margin-bottom: 50px;
+
+}
+
+div.featured
+{
+	display: flex;
+       
+       flex-direction: row;
+       
+       margin-top: 60px;
+}
+
+#first,#second
+{
+	padding: 2px;
+}
+
+div.margin
+{
+margin-left: -89px;
+    display: flex;
+}
+
+
+ul li{
+	list-style-type: none;
+	font-size: small;
+	
+
+}
+
+
+.a{
+	color: gray
+}
+
+
+ .headerlinks
+{
+
+	display: flex;
+
+}
