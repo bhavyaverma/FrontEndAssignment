@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="dom.css">
+</head>
+<body>
+<script type="text/javascript" src = "maindom.js"></script>
+
+<header>
+<div class = "header-holder">
+	<ul>
+		<li><img src="/Users/bhavyaverma/DOM_Assignment/DOM Assignment/appdirect_logo.png" ></li>
+		<ul>
+			<li>My Apps</li>
+			<li>Marketplace</li>
+				<ul id = "margin">
+					<li>Account</li>
+					<li><div class="dropdown">
+  						<button onclick="dropdownfunction()" class="dropbtn">Bhavya Verma ▼ </button>
+  						<div id="myDropdown" class="dropdown-content">
+    						<a href="#">My Profile</a>
+   							<a href="#">Account</a>
+    						<a href="#">Logout</a>
+ 						 </div>
+						</div></li>
+				</ul>
+
+		</ul>
+	</ul>
+
+
+</div>	
+</header>
+
+<form name = "RegisterationForm"  method="post">
+<div id = "scroll" >
+
+<ul  class = "borderclass">
+
+<li id = "left"><p> Register Page </p>
+First Name : <input type ="text" name="firstname" id="firstname" size="48" required><br><br><br><br>
+Last Name : <input type="text" name="lastname" size="48"><br><br><br><br>
+Address (P) : <input type="text" name="addressp" size="48" required><br><br><br><br>
+<input type="checkbox" name="checkAddress" onclick= "addresscheck(this.form);"><br><br><br><br>
+Address (C) : <input type="text" name="addressc" size="48"><br><br><br><br>
+Email id : <input type="text" name="emailid" id= "emailid" size="52" required><br><br><br><br> 
+Phone No. : <input type="text" name="phoneno" size="52" required><br><br><br><br>
+Password : <input type="password" name="Password" oncopy="return false" onpaste="return false" size="58" required><br><br><br><br>
+Confirm Password : <input type="password" name="confirmpassword" oncopy="return false" onpaste="return false" size="48"><br><br><br><br>
+<input type="Reset" name="Reset" value="Reset" id= "reseter">
+<button type="button" name="Register" value="Register" id = "register" onclick = "Validate_form();">Register</button></li>
+<li id = "right"><b>Dashboard</b>
+<ul id = "mylist"></ul>
+</li>
+</ul>
+</div>
+	
+
+
+
+</form>
+<footer>
+	<div class = "footer-holder">
+		
+		
+		<ul id = "padding"> 
+		<li id = "logo"><img src="/Users/bhavyaverma/DOM_Assignment/DOM Assignment/appdirect_footer.png" height="15px" width="15px" ></li>
+			<li>Powered by AppDirect ©2009-2017</li>
+			
+				<ul id = "margin1">
+					<li><select>
+  							<option value="english">English(United States)</option>
+ 						 	<option value="hindi">Hindi</option>
+  							<option value="french">French</option>
+  							<option value="italian">Italian</option>
+  							<option value="chineese">Chineese</option>
+						</select></li>
+					<li>Help Center</li>
+					<li>Privacy Policy</li>
+					<li>Terms and Conditions</li>
+					<li>Contact</li>
+				</ul>
+
+		</ul>
+	
+
+	</div>
+</footer>
+
+
+</body>
+</html>

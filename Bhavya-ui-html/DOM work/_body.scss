@@ -1,0 +1,94 @@
+
+
+.borderclass{
+	
+	text-decoration: none;
+		//text-decoration-style: none;
+		list-style-type: none;
+		display: flex;
+
+
+	//margin: 70%;
+	//display:flex;
+	
+}
+
+
+
+#left{
+	    width: 1025px;
+    margin-left: -28px;;
+    border: 1px solid black;
+        padding-left: 90px;
+        font-size: 20px;
+
+}
+
+#right{
+	border: 1px solid black;
+	margin-left: 50px;
+    width: 340px;
+    font-size: 30px;
+    text-align: center;
+    padding: 36px;
+
+
+}
+
+
+#scroll{
+	overflow: auto;
+    height: 1050px;
+}
+
+
+input[type=checkbox] {
+    zoom: 1.5;
+}
+
+
+#reseter{
+   background-color: #4CAF50 ;
+   margin-left: 320px;
+   padding-left: 20px;
+    padding-right: 63px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 13px;
+   :hover{
+   background-color: grey;
+}
+}
+
+#register{
+   background-color: #008CBA ;
+   margin-left: 300px;
+   padding-left: 20px;
+    padding-right: 63px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 13px;
+:hover{
+   background-color: grey;
+}
+}
+
+.moving{
+	margin-left:40px;
+}
+
+
+#mylist{
+	text-decoration: none;
+	list-style-type: none;
+	height: 50px;
+	width: 90px;
+	
+}
+
+p{
+	text-align: center;
+	font-size: 40px;
+}
