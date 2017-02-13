@@ -1,0 +1,74 @@
+.header-container {
+  height: 40px;
+  background: #175ea9;
+  display: flex;
+  width: 100%; }
+  .header-container ul {
+    list-style-type: none;
+    color: white;
+    display: flex;
+    word-spacing: 3px; }
+    .header-container ul li {
+      margin-left: 29px;
+      text-decoration: none;
+      cursor: pointer; }
+
+.header-holder {
+  height: 33x;
+  background: white;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid gray; }
+  .header-holder ul {
+    list-style-type: none;
+    display: flex; }
+    .header-holder ul li {
+      margin-left: 29px; }
+
+.justify {
+  margin-left: 800px; }
+
+#top {
+  margin-top: 10px;
+  color: #175ea9; }
+
+#right {
+  margin-left: 560px; }
+
+div.justify1 {
+  margin-left: 732px;
+  justify-content: flex-end;
+  margin-bottom: 1px; }
+
+div.featured {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  border-bottom: 1px solid gray; }
+
+#first, #second {
+  padding: 2px;
+  text-decoration: none;
+  color: gray;
+  cursor: pointer; }
+
+div.margin {
+  margin-left: 67px;
+  display: flex; }
+  div.margin a:hover {
+    background: #175ea9; }
+
+.footer-holder {
+  height: 370px;
+  background: #175ea9;
+  width: 100%;
+  margin-top: 330px;
+  overflow: hidden;
+  display: flex; }
+  .footer-holder ul {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    margin-top: 55px; }
+
+/*# sourceMappingURL=telesystem.css.map */
