@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Training</title>
+	<script src="jquery-3.1.1.min.js"></script>
+	<style>
+		.btn{
+			width: 40px;
+			height: 30px;
+		}
+	</style>
+
+	
+</head>
+<body>
+
+<h1>Hi...Welcome to JQuery</h1>
+<div id = "msg">I am static here...!</div>
+
+<button>Click Me</button>
+<script> 
+var clickCnt = 0;
+//$('document').ready(function(){
+
+		// $('button').click(function(){
+		// });
+
+		$('button').click(function(){
+			$('#msg').append("<br/><button class = 'btn'>New Button "+ (++clickCnt)+"</button>ok, you clicked me" + (clickCnt));
+	
+		
+
+		}).mousemove(function(){
+			//$(this).css({background: '#000', color: '#FFF'});
+			$(this).attr('style', 'background: #000; color : #fff');
+
+			var x = $(this).attr('style');
+			x += "height : 50px; width : 100px";
+			$(this).attr('style', x);
+
+			//console.log($(this).attr('style'));    // to check existing value
+		}).mouseout(function(){
+			//$(this).attr('style', '');
+			 $(this).removeAttr('style');
+		});
+
+		$('body').on('click','.btn', function(){
+			alert(1);
+		});
+
+//});
+
+	</script>
+
+
+
+
+<header></header>
+<footer></footer>
+
+</body>
+</html>
