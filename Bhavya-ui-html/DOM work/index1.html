@@ -3,14 +3,16 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="dom.css">
+	<script src="jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src = "jq.js"></script>
 </head>
 <body>
-<script type="text/javascript" src = "maindom.js"></script>
+
 
 <header>
 <div class = "header-holder">
 	<ul>
-		<li><img src="/Users/bhavyaverma/DOM_Assignment/DOM Assignment/appdirect_logo.png" ></li>
+		<li><img src="/Users/bhavyaverma/Bhavya-ui-html1/DOM work/appdirect_logo.png" ></li>
 		<ul>
 			<li>My Apps</li>
 			<li>Marketplace</li>
@@ -40,18 +42,18 @@
 
 <li id = "left"><p> Register Page </p>
 First Name : <input type ="text" name="firstname" id="firstname" size="48" required><br><br><br><br>
-Last Name : <input type="text" name="lastname" size="48"><br><br><br><br>
-Address (P) : <input type="text" name="addressp" size="48" required><br><br><br><br>
-<input type="checkbox" name="checkAddress" onclick= "addresscheck(this.form);"><br><br><br><br>
-Address (C) : <input type="text" name="addressc" size="48"><br><br><br><br>
+Last Name : <input type="text" name="lastname" size="48" id="lastname" required><br><br><br><br>
+Address (P) : <input type="text" name="addressp" size="48" id = "addressp" required><br><br><br><br>
+<input id = "checkbox" type="checkbox" name="checkAddress"><br><br><br><br>
+Address (C) : <input type="text" name="addressc" id = "addressc" size="48"><br><br><br><br>
 Email id : <input type="text" name="emailid" id= "emailid" size="52" required><br><br><br><br> 
-Phone No. : <input type="text" name="phoneno" size="52" required><br><br><br><br>
-Password : <input type="password" name="Password" oncopy="return false" onpaste="return false" size="58" required><br><br><br><br>
-Confirm Password : <input type="password" name="confirmpassword" oncopy="return false" onpaste="return false" size="48"><br><br><br><br>
+Phone No. : <input type="text" name="phoneno" size="52" id="phoneno" required><br><br><br><br>
+Password : <input id = "password" type="password" name="Password" oncopy="return false" onpaste="return false" size="58" required><br><br><br><br>
+Confirm Password : <input id = "confirmpassword" type="password" name="confirmpassword" oncopy="return false" onpaste="return false" size="48"><br><br><br><br>
 <input type="Reset" name="Reset" value="Reset" id= "reseter">
-<button type="button" name="Register" value="Register" id = "register" onclick = "Validate_form();">Register</button></li>
+<button type="button" name="Register" value="Register" id = "register">Register</button></li>
 <li id = "right"><b>Dashboard</b>
-<ul id = "mylist"></ul>
+<ul class = "mylist"></ul>
 </li>
 </ul>
 </div>
@@ -65,7 +67,7 @@ Confirm Password : <input type="password" name="confirmpassword" oncopy="return 
 		
 		
 		<ul id = "padding"> 
-		<li id = "logo"><img src="/Users/bhavyaverma/DOM_Assignment/DOM Assignment/appdirect_footer.png" height="15px" width="15px" ></li>
+		<li id = "logo"><img src="/Users/bhavyaverma/Bhavya-ui-html1/DOM work/appdirect_footer.png" height="15px" width="15px" ></li>
 			<li>Powered by AppDirect ©2009-2017</li>
 			
 				<ul id = "margin1">
